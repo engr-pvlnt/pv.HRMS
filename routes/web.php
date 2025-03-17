@@ -14,3 +14,4 @@ Route::get('/', function () {
 Route::middleware(['auth'])->group(function () {
     Route::resource('employees', EmployeeController::class);
 });
+
