@@ -6,8 +6,13 @@ use App\Http\Controllers\EmployeeController;
 
 Auth::routes(); // This will define the default auth routes
 
+//Route::get('/', function () {
+//    return view('welcome');
+//});
+
+// Change the root URL to redirect to the login page
 Route::get('/', function () {
-    return view('welcome');
+    return redirect()->route('login'); // Redirect to the login route
 });
 
 // Protected routes for employees

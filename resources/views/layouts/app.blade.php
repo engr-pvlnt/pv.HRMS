@@ -11,13 +11,13 @@
 
     <style>
     body {
-            background: linear-gradient(to right, #312d3a, #3d3853);
             margin: 0;
             font-family: 'Arial', sans-serif;
             display: flex;
             justify-content: center;
             align-items: center;
             min-height: 100vh;
+            background-color:rgb(6, 2, 22); /* Set body background color */
         }
 
         .login-container {
@@ -110,9 +110,9 @@
 
         .text-center a {
             color: #e8e4f7;
-        }        
+        }
+
         .login-page {
-            background: #f4f6f9;
             height: 100vh;
             display: flex;
             align-items: center;
